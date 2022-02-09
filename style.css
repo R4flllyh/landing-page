@@ -2,10 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
 
-body {
-  height: 10000px;
-}
-
 .navbar .container .navbar-brand {
   font-family: "Heebo";
   font-size: 22px;
