@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
 
+body {
+  height: 10000px;
+}
+
 .navbar .container .navbar-brand {
   font-family: "Heebo";
   font-size: 22px;
@@ -21,7 +25,7 @@
 }
 
 .carousel .carousel-inner .carousel-item {
-  height: 100%;
+  height: 100vh;
 }
 
 .carousel .carousel-inner .carousel-item img {
@@ -37,6 +41,22 @@
 
 .carousel .carousel-inner .carousel-item .carousel-caption h5 {
   font-size: 12px;
+}
+
+#about-me .container .row .col {
+  font-family: "Montserrat";
+}
+
+#about-me .container .row .col-md-4 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#about-me .container .row .col-md-6 h4 {
+  font-size: 32px;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 992px) {
